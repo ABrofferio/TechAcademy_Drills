@@ -1,2 +1,2 @@
 ###README
-A Console application that checks the last time a files was modified and transfers files from one folder to another that have been modified within the last 24 hours
+A Console application in C# that checks the last time a files was modified and transfers files from one folder to another that have been modified within the last 24 hours
