@@ -47,12 +47,12 @@ class Zones:
         newie = nyc.strftime("%a | %d %b %Y | %H : %M")
         red_newie= nyc.strftime("%H")
         self.nyc_entry.insert(0, newie)
-        if 9 > int(red_portie) < 21:
-            self.port_entry.config(background = "red")
-        if 9 > int(red_londie) < 21:
-            self.port_entry.config(background = "red")
-        if 9 > int(red_newie) < 21:
-            self.port_entry.config(background = "red")       
+        if 9 < int(red_portie) < 21:
+            self.port_entry.config(background = "green")
+        if 9 < int(red_londie) < 21:
+            self.port_entry.config(background = "green")
+        if 9 < int(red_newie) < 21:
+            self.port_entry.config(background = "green")       
 
 def main ():
     root = Tk()
