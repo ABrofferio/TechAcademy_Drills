@@ -1,5 +1,5 @@
-###README
-This SQL SERVER drill entailed creating a database schema for a library management system and then answering the following queries
+###Library Schema
+This is the SQL script for a  SQL SERVER drill that entailed creating a database schema for a library management system and then answering the following queries
 1. How many copies of the book titled The Lost Tribe are owned by the library branch whose name
 is"Sharpstown"?
 2. How many copies of the book titled The Lost Tribe are owned by each library branch?
